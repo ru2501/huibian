@@ -18,7 +18,7 @@ start:
 set:	push ds:[bx]
 		add bx,2
 		loop set
-	
+	;看看这样可以不
 		mov ax,4C00H
 		int 21H
 code ends
